@@ -1,7 +1,7 @@
 const contentstack = require('contentstack');
 
 // Initialize Contentstack
-const Stack = contentstack.Stack('blt6a5262ff4e5b4e55', 'csf4bcbc8078bbc0449b1b55c4', 'development');
+const Stack = contentstack.Stack('Enter_Your_Stack_API', 'Enter_Your_delevery_token', 'Environments');
 
 // Fetch content based on content type
 async function fetchContent(contentType) {
