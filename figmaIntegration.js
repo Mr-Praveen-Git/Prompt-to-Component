@@ -2,7 +2,7 @@ const Figma = require('figma-js');
 
 // Initialize Figma client with your personal access token
 const figmaClient = Figma.Client({
-    personalAccessToken: 'figd_WpnRYUsZVd-9NP6ZKgBpy6YMkKU9zqO1Nihsegel' // Replace with your Figma personal access token
+    personalAccessToken: 'Enter_your_figma_token' // Replace with your Figma personal access token
 });
 
 // Function to fetch components from a Figma file
@@ -38,7 +38,7 @@ function extractComponents(node) {
 }
 
 // Example usage
-const fileId = 'xaRQhfHilWPnqHlAm2OKI6'; // Replace with your Figma file ID
+const fileId = 'Enter_Your_FigmaFileId'; // Replace with your Figma file ID
 
 fetchFigmaComponents(fileId)
     .then(components => {
